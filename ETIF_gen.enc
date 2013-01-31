@@ -1,0 +1,56 @@
+% THIS FILE WAS AUTOMATICALLY GENERATED -- DO NOT EDIT
+
+%%AutoEnc_vlh7rcknpcf5kei4ma24bqajth
+% Encoding created by otftotfm on Tue Jan 22 21:34:44 2013
+% Command line follows encoding
+/AutoEnc_vlh7rcknpcf5kei4ma24bqajth [
+%00
+  /grave /.notdef /circumflex /tilde /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /quotesinglbase /.notdef /guilsinglright
+%10
+  /quotedblleft /quotedblright /quotedblbase /giumeleft /giumeright /endash /emdash /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+%20
+  /.notdef /exclam /quotedbl /numbersign /dollar /percent /ampersand /quoteright
+  /parenleft /parenright /asterisk /plus /comma /hyphen /period /slash
+%30
+  /zero /one /two /three /four /five /six /seven
+  /eight /nine /colon /semicolon /less /equal /greater /question
+%40
+  /at /uni2D44 /uni2D32 /uni2D5E /uni2D39 /uni2D3A /uni2D38 /uni2D34
+  /uni2D43 /I /uni2D36 /uni2D3F /L /M /N /uni2D41
+%50
+  /uni2D52 /Q /uni2D55 /uni2D5A /uni2D5F /U /yav /uni2D6F
+  /uni2D5D /uni2D56 /uni2D65 /bracketleft /backslash /bracketright /asciicircum /underscore
+%60
+  /quoteleft /uni2D30 /uni2D31 /uni2D5B /uni2D37 /uni2D3B /uni2D3C /uni2D33
+  /uni2D40 /uni2D49 /uni2D4A /uni2D3D /uni2D4D /uni2D4E /uni2D4F /uni2D44
+%70
+  /uni2D43 /uni2D47 /uni2D54 /uni2D59 /uni2D5C /uni2D53 /uni2D56 /uni2D61
+  /uni2D45 /uni2D62 /uni2D63 /braceleft /bar /braceright /asciitilde /hyphen
+%80
+  /uni2D30 /uni2D31 /uni2D32 /uni2D33 /uni2D34 /uni2D35 /uni2D36 /uni2D37
+  /uni2D38 /uni2D39 /uni2D3A /uni2D3B /uni2D3C /uni2D3D /uni2D3E /uni2D3F
+%90
+  /uni2D40 /uni2D41 /uni2D42 /uni2D43 /uni2D44 /uni2D45 /uni2D46 /uni2D47
+  /uni2D48 /uni2D49 /uni2D4A /uni2D4B /uni2D4C /uni2D4D /uni2D4E /uni2D4F
+%A0
+  /uni2D50 /uni2D51 /uni2D52 /uni2D53 /uni2D54 /uni2D55 /uni2D56 /uni2D57
+  /uni2D58 /uni2D59 /uni2D5A /uni2D5B /uni2D5C /uni2D5D /uni2D5E /uni2D5F
+%B0
+  /yav /uni2D61 /uni2D62 /uni2D63 /uni2D64 /uni2D65 /uni2D66 /uni2D67
+  /S /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /uni2D6F
+%C0
+  /Agrave /Aacute /Acircumflex /Atilde /Adieresis /Aring /AE /Ccedilla
+  /Egrave /Eacute /Ecircumflex /Edieresis /Igrave /Iacute /Icircumflex /Idieresis
+%D0
+  /Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde /Odieresis /.notdef
+  /Oslash /Ugrave /Uacute /Ucircumflex /Udieresis /Yacute /Thorn /.notdef
+%E0
+  /agrave /aacute /acircumflex /atilde /adieresis /aring /ae /ccedilla
+  /egrave /eacute /ecircumflex /edieresis /igrave /iacute /icircumflex /idieresis
+%F0
+  /eth /ntilde /ograve /oacute /ocircumflex /otilde /odieresis /.notdef
+  /oslash /ugrave /uacute /ucircumflex /udieresis /yacute /thorn /germandbls
+] def
+% Command line: 'otftotfm -e ETIF.enc T_I_UNICODE.ttf'

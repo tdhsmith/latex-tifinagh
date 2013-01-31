@@ -1,0 +1,21 @@
+% Provides helper functions for the ETIF encoding (also a part of the package)
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{tifinagh}[2013/01/28 Tifinagh v0.15]
+
+% conditional borrowed from TIPA.sty - option removes fontenc call
+\newif\if@tifloadfontenc
+\@tifloadfontenctrue
+\newcommand\@tifdefaultenc{\f@encoding}
+\DeclareOption{noenc}{\@tifloadfontencfalse\renewcommand\@defaultenc{}}
+\ProcessOptions
+\ifx\empty\@tifdefaultenc\empty\else
+ \if@tifloadfontenc
+  \RequirePackage[ETIF,\tif@defaultenc]{fontenc}
+ \fi
+\fi
+
+%main helper macros
+
+\newcommand\texttif[1]{{\fontencoding{ETIF}\fontfamily{IrcamUnicode}\selectfont #1}}
+\newenvironment{tifinagh}{\fontencoding{ETIF}\fontfamily{IrcamUnicode}\selectfont}{}
+

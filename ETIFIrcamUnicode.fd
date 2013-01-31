@@ -1,0 +1,4 @@
+﻿\ProvidesFile{ETIFIrcamUnicode.fd}
+\DeclareFontFamily{ETIF}{IrcamUnicode}{}
+\DeclareFontShape{ETIF}{IrcamUnicode}{m}{n}{ <-> Tifinaghe-IrcamUnicode--ETIF--base }{}
+\pdfmapfile{+ETIF.map}

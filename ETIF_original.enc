@@ -1,0 +1,153 @@
+% ETIF.enc
+%
+% Experimental encoding file for IRCAM-style Tifinagh fonts.
+%
+% LIGKERN hyphen hyphen =: endash ; endash hyphen =: emdash ;
+% LIGKERN quoteleft quoteleft =: quotedblleft ;
+% LIGKERN quoteright quoteright =: quotedblright ;
+% LIGKERN comma comma =: quotedblbase ; less less =: guillemotleft ;
+% LIGKERN greater greater =: guillemotright ;
+% LIGKERN space {} * ; * {} space ;
+% LIGKERN zero {} * ; * {} zero ;
+% LIGKERN one {} * ; * {} one ;
+% LIGKERN two {} * ; * {} two ;
+% LIGKERN three {} * ; * {} three ;
+% LIGKERN four {} * ; * {} four ;
+% LIGKERN five {} * ; * {} five ;
+% LIGKERN six {} * ; * {} six ;
+% LIGKERN seven {} * ; * {} seven ;
+% LIGKERN eight {} * ; * {} eight ;
+% LIGKERN nine {} * ; * {} nine ;
+% LIGKERN eight five =: two ;
+%
+
+/ETIFEncoding [          % now 256 chars follow
+% 0x00
+  /grave /acute /circumflex /tilde
+  /dieresis /hungarumlaut /ring /caron
+  /breve /macron /dotaccent /cedilla
+  /ogonek /quotesinglbase /guilsinglleft /guilsinglright
+% 0x10
+  /quotedblleft /quotedblright /quotedblbase /guillemotleft
+  /guillemotright /endash /emdash /compwordmark
+  /perthousandzero /dotlessi /dotlessj /ff
+  /fi /fl /ffi /ffl
+% 0x20
+  /visualspace /exclam /quotedbl /numbersign
+  /dollar /percent /ampersand /quoteright
+  /parenleft /parenright /asterisk /plus
+  /comma /hyphen /period /slash
+% 0x30
+  /zero /one /two /three
+  /four /five /six /seven
+  /eight /nine /colon /semicolon
+  /less /equal /greater /question
+% 0x40
+  /at /uni2D44 /uni2D32 /uni2D5E
+  /uni2D39 /uni2D3A /uni2D38 /uni2D34
+  /uni2D43 /I /uni2D36 /uni2D3F
+  /L /M /N /uni2D41
+% 0x50
+  /uni2D52 /Q /uni2D55 /uni2D5A
+  /uni2D5F /U /uni2D60 /uni2D6F
+  /uni2D5D /uni2D56 /uni2D65 /bracketleft
+  /backslash /bracketright /asciicircum /underscore
+% 0x60
+  /quoteleft /uni2D30 /uni2D31 /uni2D5B
+  /uni2D37 /uni2D3B /uni2D3C /uni2D33
+  /uni2D40 /uni2D49 /uni2D4A /uni2D3D
+  /uni2D4D /uni2D4E /uni2D4F /uni2D44
+% 0x70
+  /uni2D43 /uni2D47 /uni2D54 /uni2D59
+  /uni2D5C /uni2D53 /uni2D56 /uni2D61
+  /uni2D45 /uni2D62 /uni2D63 /braceleft
+  /bar /braceright /asciitilde /hyphen
+% 0x80  ---BEGIN TIFINAGH BLOCK FORM
+  /uni2D30  % 0x80 ya
+  /uni2D31  % 0x81 yab
+  /uni2D32  % 0x82 yab fricative*
+  /uni2D33  % 0x83 yag
+  /uni2D34  % 0x84 yag fricative*
+  /uni2D35  % 0x85 yadj (Academy)*
+  /uni2D36  % 0x86 yadj*
+  /uni2D37  % 0x87 yad
+  /uni2D38  % 0x88 yad fricative*
+  /uni2D39  % 0x89 yaD
+  /uni2D3A  % 0x8a yaD fricative*
+  /uni2D3B  % 0x8b yey
+  /uni2D3C  % 0x8c yaf
+  /uni2D3D  % 0x8d yak
+  /uni2D3E  % 0x8e yak (Tuareg)*
+  /uni2D3F  % 0x8f yak fricative*
+% 0x90
+  /uni2D40  % 0x90 yah
+  /uni2D41  % 0x91 yah (Academy)*
+  /uni2D42  % 0x92 yah (Tuareg)*
+  /uni2D43  % 0x93 yaH
+  /uni2D44  % 0x94 ya3
+  /uni2D45  % 0x95 yax
+  /uni2D46  % 0x96 yax (Tuareg)*
+  /uni2D47  % 0x97 yaq
+  /uni2D48  % 0x98 yaq (Tuareg)*
+  /uni2D49  % 0x99 yi
+  /uni2D4A  % 0x9a yaj
+  /uni2D4B  % 0x9b yaj (Ahaggar)*
+  /uni2D4C  % 0x9c yaj (Tuareg)*
+  /uni2D4D  % 0x9d yal
+  /uni2D4E  % 0x9e yam
+  /uni2D4F  % 0x9f yan
+% 0xA0
+  /uni2D50  % 0xA0 yagn (Tuareg)*
+  /uni2D51  % 0xA1 yang (Tuareg)*
+  /uni2D52  % 0xA2 yap *
+  /uni2D53  % 0xA3 yu
+  /uni2D54  % 0xA4 yar
+  /uni2D55  % 0xA5 yaR
+  /uni2D56  % 0xA6 yaY
+  /uni2D57  % 0xA7 yaY (Tuareg)*
+  /uni2D58  % 0xA8 yaq (Air)*
+  /uni2D59  % 0xA9 yas
+  /uni2D5A  % 0xAa yaS
+  /uni2D5B  % 0xAb yash
+  /uni2D5C  % 0xAc yat
+  /uni2D5D  % 0xAd yat fricative*
+  /uni2D5E  % 0xAe yatsh*
+  /uni2D5F  % 0xAf yaT
+% 0xB0 
+  /uni2D60  % 0xB0 yav*
+  /uni2D61  % 0xB1 yaw
+  /uni2D62  % 0xB2 yay
+  /uni2D63  % 0xB3 yaz
+  /uni2D64  % 0xB4 yaz (Tawellemet)*
+  /uni2D65  % 0xB5 yaZ
+  /uni2D66  % 0xB2 ye (APT Niger)*
+  /uni2D67  % 0xB2 yo (APT Niger)*
+  % Unicode points 0x2D68-0x2D6E reserved for future Tifinagh
+  /.notdef /.notdef
+  /.notdef /.notdef
+  /.notdef /.notdef
+  /.notdef
+  /uni2D6F  % 0xBf tamatart (superscript yaw)
+% 0xC0
+  /Agrave /Aacute /Acircumflex /Atilde
+  /Adieresis /Aring /AE /Ccedilla
+  /Egrave /Eacute /Ecircumflex /Edieresis
+  /Igrave /Iacute /Icircumflex /Idieresis
+% 0xD0
+  /Eth /Ntilde /Ograve /Oacute
+  /Ocircumflex /Otilde /Odieresis /OE
+  /Oslash /Ugrave /Uacute /Ucircumflex
+  /Udieresis /Yacute /Thorn /Germandbls
+% 0xE0
+  /agrave /aacute /acircumflex /atilde
+  /adieresis /aring /ae /ccedilla
+  /egrave /eacute /ecircumflex /edieresis
+  /igrave /iacute /icircumflex /idieresis
+% 0xF0
+  /eth /ntilde /ograve /oacute
+  /ocircumflex /otilde /odieresis /oe
+  /oslash /ugrave /uacute /ucircumflex
+  /udieresis /yacute /thorn /germandbls
+] def
+
+% eof
